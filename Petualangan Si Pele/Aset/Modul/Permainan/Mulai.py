@@ -80,7 +80,8 @@ class Mulai:
 			PERBAHARUI()
 			self.waktu.tick(FPS)
 		RINTANGAN.Rintangan.atur_kembali(RINTANGAN.Rintangan)
-		self.pemain.info.atur_kembali()
+		if not self.menang:
+			self.pemain.info.atur_kembali()
 	def cek_kalah(self, Layar):
 		if not self.pemain.cek_darah():
 			self.tampilan_kalah(Layar)
