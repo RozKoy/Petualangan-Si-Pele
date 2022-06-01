@@ -59,6 +59,7 @@ class Pemain:
 				self.langkah = 0
 			if not self.melompat and aksi[HURUF_W]:
 				self.melompat = True
+				self.langkah = 0
 
 		if self.melompat:
 			self.lompat()
