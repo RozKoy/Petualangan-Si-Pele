@@ -27,7 +27,7 @@ class Timer:
 		self.efek_suara = SUARA.Suara('Aset\\Suara\\Efek_suara\\Permainan\\hitung_mundur.mp3')
 		self.jam = WAKTU()
 	def tampil(self, Layar):
-		hitung_mundur = USEREVENT + 1
+		hitung_mundur = USEREVENT + 2
 		TIMER(hitung_mundur, 1000, self.__waktu)
 		self.efek_suara.mulai()
 		while True:
