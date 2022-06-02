@@ -73,11 +73,11 @@ class Pemain:
 	def jalan_kanan(self):
 		self.posisi.move_ip(self.kecepatan, 0)
 		self.gambar = self.file_jalan_kanan[self.langkah // 5]
-		self.langkah = self.langkah + 1 if self.langkah < 14 else 0
+		self.langkah = self.langkah + 1 if self.langkah < 13 else 0
 	def jalan_kiri(self):
 		self.posisi.move_ip(-self.kecepatan, 0)
 		self.gambar = self.file_jalan_kiri[self.langkah // 5]
-		self.langkah = self.langkah + 1 if self.langkah < 14 else 0
+		self.langkah = self.langkah + 1 if self.langkah < 13 else 0
 	def lompat(self):
 		file = self.file_lompat_kanan if self.arah == 'kanan' else self.file_lompat_kiri
 		self.gambar = file[0]
