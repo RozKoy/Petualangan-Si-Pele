@@ -64,7 +64,7 @@ class Mulai:
 		return AMBIL_GAMBAR(lokasi = lokasi, nama = nama)
 	def tampil(self, Layar):
 		self.hitung_mundur.tampil(Layar)
-		TIMER(self.hitung_waktu, 625)
+		TIMER(self.hitung_waktu, 625, 1)
 		while self.berjalan:
 			self.tampilkan_isi(Layar)
 			self.cek_acara(Layar)
@@ -139,6 +139,7 @@ class Mulai:
 				self.cek_aksi(acara.key, Layar)
 			if acara.type == self.hitung_waktu and not (self.jeda or self.kalah):
 				self.menit += 1
+				TIMER(self.hitung_waktu, 625, 1)
 				self.cek_aksi_waktu()
 	def cek_aksi(self, key, Layar):
 		if key == ESCAPE and not (self.jeda or self.kalah):
