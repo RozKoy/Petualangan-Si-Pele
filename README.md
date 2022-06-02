@@ -1,6 +1,6 @@
 # Petualangan-Si-Pele
 
-<img src="Aset\\UML\\UML_PetualanganSiPele.png" width="100%">
+<img src="Aset/UML/UML_PetualanganSiPele.png" width="100%">
 
 ## Deskripsi Game
 Game `nyebrangin` menggambarkan tentang player yang ingin membantu civillian untuk menyebrangi jalan ke tujuan yang diinginkan. 
