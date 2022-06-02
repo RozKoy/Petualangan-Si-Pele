@@ -18,7 +18,36 @@ Seorang anak laki-laki bernama **Pele** yang sedang asik bermain *Game Console* 
 5. Yey, Permainan **Petualangan Si Pele** kami siap untuk dimainkan. Dengan klik dua kali pada file bernama `PetualanganSiPele.py` anda dapat merasakan serunya permainan kami. 
 6. Berikanlah Tanggapan dan Saran kalian dengan menghubungi kontak yang ada. Salam Hangat dari kami **`Sepele Squad`**
 
-## Alur Permainan
+## Penjelasan Alur Permainan
+<img src="Petualangan Si Pele/Aset/UML/tampilan1.jpeg" width="50%">
+
+Setelah game dijalankan, maka akan muncul tampilan **menu utama** dari petualangan si pele, didalam menu ini terdapat beberapa tombol seperti tombol mulai, tombol karakter, tombol pengaturan, tombol info, dan tombol keluar. Kamu dapat memilih salah satu dari tombol tersebut. 
+
+<img src="Petualangan Si Pele/Aset/UML/tanpilan2.jpeg" width="50%">
+
+Gambar diatas adalah saat user menekan **tombol karakter**, didalam karakter kamu dapat memilih karakter yang tersedia seperti karakter si pele, karakter kelompok (Hariando, Rozin, Robi, Affan, Ilham dan Carin). Untuk menggeser karakter tekan `Panah Kanan/Panah Kiri` dan tekan `Enter` untuk memilih karakter tersebut. 
+
+<img src="Petualangan Si Pele/Aset/UML/tamnpilan3.jpeg" width="50%">
+
+Gambar diatas adalah **tombol pengaturan**, didalam pengaturan kamu bisa mematikan musik dan efek suara game atau efek suara karakter. Dengan cara menekan `Enter` maka tombol akan aktif, Untuk menggeser tombol tekan `Panah Kanan/Panah Kiri`.
+
+<img src="Petualangan Si Pele/Aset/UML/tampilan4.jpeg" width="50%">
+
+Gambar diatas adalah tampilan **menu mulai**, didalam menu ini kamu dapat memainkan game petualangan si pele dan membantu pele pulang kerumah dengan selamat. Didalam menu ini terdapat 3 level dan level bos. **Apabila darah kamu sudah habis**, maka kamu tidak bisa melanjutkan permainan. dan kamu diminta untuk mengulang kembali permainan atau keluar permainan. 
+
+<img src="Petualangan Si Pele/Aset/UML/tampilan5.jpeg" width="50%">
+
+Gambar diatas adalah tampilabn menu mulai pada **level 1**, cara bermainnya adalah dengan menekan `Enter` untuk lompat tujuannya agar menghindari batu dan kayu agar darah tidak berkurang. 
+
+<img src="Petualangan Si Pele/Aset/UML/tampilan6.jpeg" width="50%">
+
+Gambar diatas adalah tampilan menu mulai pada **level 2 dan level 3**, cara bermainnya adalah dengan menekan `Enter` untuk lompat tujuannya agar menghindari batu dan kayu agar darah tidak berkurang. 
+
+<img src="Petualangan Si Pele/Aset/UML/tampilan7.jpeg" width="50%">
+
+Gambar diatas adalah tampilan dari **Lawan BOS Hantu**. pada tahap ini kamu harus mengalahkan BOS Hantu untuk dapat mengalahkannya kamu dipersenjatai batu untuk melempar batu tersebut ke BOS Hantu. Cara bermainnya dengan menekan tombol `W` = untuk Melompat, `A` = untuk bergerak ke kiri, `D` = untuk bergerak ke kanan, `ENTER` atau `SPACE` = untuk menembak , `ESC` = *Pause* atau jeda permainan
+
+**Ayo bantu pele mengalahkan BOS Hantu tersebut dan bantu pele pulang kerumah dengan selamat... **
 
 ## Petunjuk Permainan
 > Pada level 1 - level 3
