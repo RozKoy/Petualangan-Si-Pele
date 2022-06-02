@@ -1,74 +1,51 @@
-# Petualangan-Si-Pele
+# [SEPELE SQUAD](https://github.com/MRozinAsySyaddad/Petualangan-Si-Pele)
+
+<img src="Petualangan Si Pele/Aset/UML/LOGO.png" width="100%">
+
+## Cerita Petualangan Si Pele
+Seorang anak laki-laki bernama **Pele** yang sedang asik bermain *Game Console* hingga tidak sadar hari sudah gelap. **Si Pele** pun memutuskan untuk pulang, namun perjalanan **Si Pele** untuk menuju rumahnya tidak semudah itu. Di sinilah Petualangan Menegangkan **Si Pele** dimulai...
+
+## Dependensi Permainan
+- pygame: Library utama untuk menjalankan game di python.
+- random: Library untuk menghandle fungsi-fungsi yang bersifat random. 
+
+## Instalasi Permainan
+
+1. Sebelum menjalankan permainan kami, lakukan instalasi terlebih dahulu [*Python*](https://www.python.org/downloads/) pada perangkat kamu.
+2. Jika **Python** telah terpasang, maka diperlukan *Pythons Package* bernama [*Pygame*](https://www.pygame.org/wiki/GettingStarted).
+3. Ketika `Python` dan `Pygame` telah terpasang pada perangkat anda. Unduhlah Repository ini pada [*Halaman Ini*](https://github.com/MRozinAsySyaddad/Petualangan-Si-Pele). Yaitu dengan klik `Code` dan pilihlah `Download ZIP`
+4. *Extract* file zip tersebut pada penyimpanan lokal anda.
+5. Yey, Permainan **Petualangan Si Pele** kami siap untuk dimainkan. Dengan klik dua kali pada file bernama `PetualanganSiPele.py` anda dapat merasakan serunya permainan kami. 
+6. Berikanlah Tanggapan dan Saran kalian dengan menghubungi kontak yang ada. Salam Hangat dari kami **`Sepele Squad`**
+
+## Alur Permainan
+
+## Petunjuk Permainan
+> Pada level 1 - level 3
+- `SPACE` = Melompat atau menghindari Rintangan
+- `ESC` = *Pause* atau jeda permainan
+> Pada Level BOS
+- `W` = untuk Melompat
+- `A` = untuk bergerak ke kiri
+- `D` = untuk bergerak ke kanan
+- `ENTER` atau `SPACE` = untuk menembak 
+- `ESC` = *Pause* atau jeda permainan
+
+## UML Class Diagram
 
 <img src="Petualangan Si Pele/Aset/UML/UML_PetualanganSiPele.png" width="100%">
 
-## Deskripsi Game
-Game `nyebrangin` menggambarkan tentang player yang ingin membantu civillian untuk menyebrangi jalan ke tujuan yang diinginkan. 
+## RB04 - SEPELE SQUAD
 
-Player memiliki beberapa kesempatan bermain berupa nyawa yang akan berkurang setiap kali tertabrak kendaraan atau jatuh ke dalam lubang. Misi utama seorang player yaitu membantu civilian yang ingin menyebrang dalam durasi waktu tertentu untuk dapat ke level yang lebih tinggi. Semakin tinggi tingkatan level, maka tingkat kesulitan juga akan semakin tinggi.
-
-## Dependensi atau Library
-- pygame: Library utama untuk menjalankan game di python.
-- random: Library untuk menghandle fungsi-fungsi yang bersifat random. 
-- os: Library ini digunakan unuk berintraksi dengen sistem operasi.
-- datetime: Library ini digunakan untuk menggenerate data waktu.
-- json: Library ini digunakan unuk mengelola data dengen tipe data JSON.
-
-## Menjalankan Game
-Sebelum menjalankan game, pastikan semua paket atau library sudah terinstall:
-
-```
-# pip install pygame
-# pip3 install pygame (alternative command)
-```
-Perintah untuk menjalankan game:
-```
-# python nyebrangin.py
-# python3 nyebrangin.py (alternative command)
-# py nyebrangin.py (alternative command)
-```
-
-## Cara Bermain 
-
-<img src="docs/menu.png" width="100%"> 
-<img src="docs/01-level-list.png" width="100%"> 
-
-Setelah game dijalankan, maka akan muncul tampilan menu utama seperti gambar di atas. Setelah itu, klik tombol `Start` untuk membuka daftar level yang tersedia. Setelah itu, pilih tingkatan level yang ingin dimainkan.
-
-<img src="docs/game-run.png" width="100%"> 
-
-Setelah level terbuka, misi player yaitu membantu para civilian untuk menyebrangi jalan ke tujuan tertentu. Player harus menyelasaikan misi tersebut dalam jangka waktu tertentu. Jika waktu atau nyawa player habis, maka game akan bergenti dan akan menampilkan popup `Game Over`. Jika misi telah selesai, maka game akan menampilkan popup `Game Finish` dan player berhak untuk dapat memainkan game di level berikutnya.  
-
-<img src="docs/game-finish.png" width="100%"> 
-<img src="docs/02-level-list.png" width="100%"> 
-
-## Ketentuan Game
-- Nyawa player akan berkurang jika player jatuh ke lubang atau ditabrak oleh kendaraan yang sedang melintas. Pada kondisi ini player sedang membawa civilian, maka civilian akan kembali ke poisis awal.
-- Civilian akan kembali ke poisis awal jika ia ditabrak oleh kendaraan atau masuk ke dalam lubang.
-- Tujuan civilian akan terlihat jika player menyentuh civilian.
-- Level selanjutnya akan terbuka jika telah menyelesaikan misi pada level tersebut.
-- Game Over: Terjadi apabila durasi hitungan mundur telah habis atau player kehabisan nyawa.
-- Game Finish: Terjadi apabila semua civilian berhasil sampai ke tujian dengen durasi waktu dan nyawa player yang masih tersisa.
-
-## Kontrol Game
-- `Control Key`: Digunakan untuk menggerakan player ke atas, bawah, kanan, dan kiri.
-- `w`: Digunakan untuk mengaktifkan `walk mode` pada player. Karena secara default, player menggunaka  `run mode` dalam bergerak.
-- `SPACE`: Digunakan untuk membawa dan melepas civilian.
-- `esc`: Digunakan untuk menghentikan game sementara.
-
-## UML Class Diagram
-<img src="docs/uml-class.png" width="800">
-
-## Pengembang Game
- 
-| KELOMPOK : RB05 - PULANGMEN |
-| ---------------- |
-
-| NIM  | Nama | Sebagai |
+| NIM | Nama | Profesi |
 | ----- | --- | --- |
-| 120140043  | Irsan Romardi Harahap  | Leader and Tester |
-| 120140149  | Dewi Anggraini  | Level Designer |
-| 119140117  | Chantika Aurrelia | Game Designer and Artist |
-| 120140039  | Tara Nadani Mozart  | Game Designer and Artist |
-| 120140189  | Fanesa Hadi Pramana  | Programmer |
-| 120140071  | Muhammad Rizky Fahreza Gusti  | Programmer |
+| 120140030 | Muhammad Affan Sa'id | Leader and Tester |
+| 120140032 | Ilham Scesar Erlangga | Designer Game Flow |
+| 120140009 | Carin Akiela Amanda | Artistic Game Design |
+| 120140004 | Hariando Muthi | Game Designer and Sound |
+| 120140034 | Robi Hardinata | Game Designer and Artist |
+| 120140006 | Muhammad Rozin Asy Syaddad | Programmer |
+
+**Kontak Kami** :
+
+> [Affan](https://instagram.com/m.affan.said/), [Ilham](https://instagram.com/ilhamscesar99/), [Carin](https://instagram.com/carinakielaaa/), [Ando](https://www.instagram.com/hariando7/), [Robi](https://www.instagram.com/robihardinata/), [Rozin](https://www.instagram.com/rozinnnnn_/)
