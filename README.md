@@ -50,15 +50,20 @@ Gambar diatas adalah tampilan dari **Lawan BOS Hantu**. pada tahap ini kamu haru
 **Ayo bantu pele mengalahkan BOS Hantu tersebut dan bantu pele pulang kerumah dengan selamat... **
 
 ## Petunjuk Permainan
+> Menu
+- `PANAH ATAS` atau `PANAH KIRI` = untuk mengganti pilihan tombol ke atas atau ke kiri
+- `PANAH BAWAH` atau `PANAH KANAN` = untuk mengganti pilihan tombol ke bawah atau ke kanan
+
 > Pada level 1 - level 3
-- `SPACE` = Melompat atau menghindari Rintangan
-- `ESC` = *Pause* atau jeda permainan
+- `SPACE` = untuk melompat atau menghindari rintangan
+- `ESC` = untuk *pause* atau jeda permainan
+
 > Pada Level BOS
 - `W` = untuk Melompat
 - `A` = untuk bergerak ke kiri
 - `D` = untuk bergerak ke kanan
 - `ENTER` atau `SPACE` = untuk menembak 
-- `ESC` = *Pause* atau jeda permainan
+- `ESC` = untuk *pause* atau jeda permainan
 
 ## UML Class Diagram
 
