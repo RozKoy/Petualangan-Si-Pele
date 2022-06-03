@@ -47,7 +47,7 @@ Gambar diatas adalah tampilan menu mulai pada **level 2 dan level 3**, cara berm
 
 Gambar diatas adalah tampilan dari **Lawan BOS Hantu**. pada tahap ini kamu harus mengalahkan BOS Hantu untuk dapat mengalahkannya kamu dipersenjatai batu untuk melempar batu tersebut ke BOS Hantu. Cara bermainnya dengan menekan tombol `W` = untuk Melompat, `A` = untuk bergerak ke kiri, `D` = untuk bergerak ke kanan, `ENTER` atau `SPACE` = untuk menembak , `ESC` = *Pause* atau jeda permainan
 
-**Ayo bantu pele mengalahkan BOS Hantu tersebut dan bantu pele pulang kerumah dengan selamat... **
+**Ayo bantu pele mengalahkan BOS Hantu tersebut dan bantu pele pulang kerumah dengan selamat...**
 
 ## Petunjuk Permainan
 > Menu
