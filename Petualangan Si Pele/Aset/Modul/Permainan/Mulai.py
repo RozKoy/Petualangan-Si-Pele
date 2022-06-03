@@ -155,7 +155,7 @@ class Mulai:
 				if self.jeda:
 					self.jeda = False
 					self.hitung_mundur.tampil(Layar)
-					TIMER(self.hitung_waktu, 625)
+					TIMER(self.hitung_waktu, 625, 1)
 				elif self.kalah:
 					RINTANGAN.Rintangan.atur_kembali(RINTANGAN.Rintangan)
 					self.pemain.info.atur_kembali()
