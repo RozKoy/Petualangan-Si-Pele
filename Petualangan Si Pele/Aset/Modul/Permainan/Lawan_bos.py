@@ -154,6 +154,7 @@ class Lawan_bos:
                     if self.jeda:
                         self.jeda = False
                         self.hitung_mundur.tampil(Layar)
+                        TIMER(self.item_jatuh, random.randint(1, 3) * 10000, 1)
 
     def berakhir(self):
         self.pemain.jalan_kanan()
