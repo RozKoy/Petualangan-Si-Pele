@@ -1,0 +1,4 @@
+KARAKTER = 0
+
+EFEK_SUARA = True
+MUSIK = True
